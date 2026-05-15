@@ -232,9 +232,9 @@ categorical_comparison <- data.frame(
 
 ## Adding percentage columns
 categorical_comparison$SUFFICIENT_pct <- round(
-  categorical_comparison$SUFFICIENT_n / 203 * 100, 1)
+  categorical_comparison$SUFFICIENT_n / 161 * 100, 1)
 categorical_comparison$INSUFFICIENT_pct <- round(
-  categorical_comparison$INSUFFICIENT_n / 203 * 100, 1)
+  categorical_comparison$INSUFFICIENT_n / 42 * 100, 1)
 
 ##########################################################################################################
 ################################ Binary Logistic Regression for CAC Scores ###############################
